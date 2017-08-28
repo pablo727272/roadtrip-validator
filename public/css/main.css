@@ -1,0 +1,32 @@
+body {
+    background-color: slategray;
+}
+
+a {
+    color: white;
+}
+
+p {
+    color: lightgray;
+}
+
+/*make google map embeds responsive*/
+.google-maps {
+    position: relative;
+    padding-bottom: 75%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+}
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+/*cargo images no bigger than 250x250*/
+.cargo-image {
+    max-width: 125px;
+    max-height: 125px;
+}
